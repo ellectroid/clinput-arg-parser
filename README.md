@@ -8,11 +8,11 @@ Console input:
   
 Clinput output (configurable):  
 RAM contains   
-struct clinput_output{  
-	    char input_file_path[32];  
-	    int action_code;  
-	    int verbosity_level;  
-}  
+>struct clinput_output{  
+>&nbsp;&nbsp;&nbsp;&nbsp;char input_file_path[32];  
+>&nbsp;&nbsp;&nbsp;&nbsp;int action_code;  
+>&nbsp;&nbsp;&nbsp;&nbsp;int verbosity_level;  
+>}  
   
 (can freely move members of struct around in the definition, resize the array and it won't break anything!!!)  
   
